@@ -1,0 +1,26 @@
+
+
+
+#navbar {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+
+#menu {
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    gap: 40px;
+    
+   
+}
+
+#menu>div {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+
